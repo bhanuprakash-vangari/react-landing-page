@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+h1 {
+  display: inline-block;
+  margin-left: 165px;
+  margin-top: 240px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  text-align: left;
+  font-feature-settings: "liga" off;
+  justify-content: center;
+}
+
+button {
+  display: block;
+  background: #8c30f5;
+  border-radius: 8px;
+  padding: 16px 64px;
+  margin-left: 165px;
+  margin-top: 50px;
+  font-family: Manrope;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 20px;
+  line-height: 30px;
+  border: none;
+  box-shadow: 5px 10px 40px #D6B1FF;
+  cursor: pointer;
+}
+button:hover{
+    background: #a455ff;
+}
+.Hero {
+  display: block;
+  height: 100vh;
+}
+.HeroImg {
+    display: flex;
+    float: right;
+    margin-right: 165px;
+    margin-top: 68px;
+}
+
+.LogoClub {
+    width: 100vw;
+}
