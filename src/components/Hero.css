@@ -11,6 +11,7 @@ h1 {
   text-align: left;
   font-feature-settings: "liga" off;
   justify-content: center;
+  animation: fadeIn 2s ease forwards;
 }
 
 button {
@@ -27,23 +28,34 @@ button {
   font-size: 20px;
   line-height: 30px;
   border: none;
-  box-shadow: 5px 10px 40px #D6B1FF;
+  box-shadow: 5px 10px 40px #d6b1ff;
   cursor: pointer;
+  animation: fadeIn 4s ease forwards;
 }
-button:hover{
-    background: #a455ff;
+button:hover {
+  background: #a455ff;
 }
 .Hero {
   display: block;
   height: 100vh;
 }
 .HeroImg {
-    display: flex;
-    float: right;
-    margin-right: 165px;
-    margin-top: 68px;
+  display: flex;
+  float: right;
+  margin-right: 165px;
+  margin-top: 68px;
+  animation: fadeIn 6s ease forwards;
 }
 
 .LogoClub {
-    width: 100vw;
+  width: 100vw;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
