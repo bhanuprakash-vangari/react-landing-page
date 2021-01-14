@@ -1,2 +1,2 @@
 # Landify - A Landing Page Using React JS :electron:
-[Live Demo] url('www.google.co.in')
+[Live Demo]('www.google.co.in')
