@@ -1,1 +1,1 @@
-# Landify - A Landing Page Using React JS
+# Landify - A Landing Page Using React JS :electron:
