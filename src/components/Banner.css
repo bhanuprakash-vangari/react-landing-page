@@ -1,0 +1,6 @@
+.bnr {
+    display: grid;
+}
+.bnr img{
+    width: 100vw;
+}

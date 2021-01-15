@@ -1,7 +1,7 @@
 import React from 'react'
-
+import "./Headline.css";
 const Headline = () => {
-    return <div>Headline</div>;
+    return <div className="container"></div>;
 }
 
 export default Headline

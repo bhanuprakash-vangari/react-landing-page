@@ -1,7 +1,7 @@
 import React from 'react'
-
+import './Feedback.css'
 const Feedback = () => {
-    return <div>Feedback</div>;
+    return <div className="container"></div>;
 }
 
 export default Feedback

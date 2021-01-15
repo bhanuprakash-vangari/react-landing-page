@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
+
+.container {
+  display: grid;
+  background: #fff;
+  width: 100vw;
+  grid-template-columns: 1fr;
+  place-items: center;
+  padding-top: 2rem;
+}
+
+.cards {
+  display: grid;
+  background: #fff;
+  width: 100vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "card1 card2 card3"
+  "card4 card5 card6";
+ padding-top: 5rem;
+  place-items: center;
+}
+
+.card1 {
+  grid-area: card1;
+  text-align: center;
+}
+.card2 {
+  text-align: center;
+  grid-area: card2;
+}
+.card3 {
+  text-align: center;
+  grid-area: card3;
+}
+.card4 {
+  text-align: center;
+  grid-area: card4;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.card5 {
+  text-align: center;
+  grid-area: card5;
+    padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.card6 {
+  text-align: center;
+  grid-area: card6;
+    padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+.container h1 {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+  font-feature-settings: "liga" off;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
+}
+.container p {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  text-align: center;
+  font-feature-settings: "liga" off;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
+}
+
+.cards h5 {
+  /* Heading / H5 */
+  margin-top: 1rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+  font-feature-settings: "liga" off;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
+}
+
+.cards p {
+    margin-top: 0.5rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+  font-feature-settings: "liga" off;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
+}

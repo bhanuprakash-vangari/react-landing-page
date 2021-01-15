@@ -9,11 +9,13 @@ import Headline from "./components/Headline";
 import Features from "./components/Features";
 import Trends from "./components/Trends";
 import Feedback from "./components/Feedback";
+import Banner from "./components/Banner";
 const App = () => {
   return (
     <div className="App">
       <NavBar />
       <Hero />
+      <Banner />
       <Features />
       <Feedback />
       <Achievements />
