@@ -1,61 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+.Hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "txt img";
+  margin-top: 2rem;
+}
+
+.mainText {
+  grid-area: txt;
+  padding-top: 15rem;
+  padding-left: 15rem;
+}
+.img {
+  grid-area: img;
+  padding-left: 24rem;
+}
 
 h1 {
-  display: inline-block;
-  margin-left: 165px;
-  margin-top: 240px;
   font-family: Manrope;
   font-style: normal;
   font-weight: 800;
   font-size: 72px;
-  text-align: left;
+  line-height: 98px;
+  /* or 136% */
+
   font-feature-settings: "liga" off;
-  justify-content: center;
-  animation: fadeIn 2s ease forwards;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
 }
 
 button {
-  display: block;
+    margin-top: 2rem;
   background: #8c30f5;
+  box-shadow: 15px 30px 60px #d6b1ff;
   border-radius: 8px;
-  padding: 16px 64px;
-  margin-left: 165px;
-  margin-top: 50px;
+  padding: 20px 64px;
+  border: none;
+  color: #fff;
   font-family: Manrope;
-  color: #ffffff;
   font-style: normal;
   font-weight: 1;
   font-size: 20px;
   line-height: 30px;
-  border: none;
-  box-shadow: 5px 10px 40px #d6b1ff;
+  /* identical to box height, or 150% */
+
+  text-align: center;
   cursor: pointer;
-  animation: fadeIn 4s ease forwards;
 }
-button:hover {
-  background: #a455ff;
-}
-.Hero {
-  display: block;
-  height: 100vh;
-}
-.HeroImg {
-  display: flex;
-  float: right;
-  margin-right: 165px;
-  margin-top: 68px;
-  animation: fadeIn 6s ease forwards;
-}
+button:hover{
+  background: #9b43ff;
 
-.LogoClub {
-  width: 100vw;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }

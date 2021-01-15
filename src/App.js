@@ -1,23 +1,26 @@
 import React from "react";
 import NavBar from "./components/NavBar";
-import BG from "./assets/bg.png";
 import Hero from "./components/Hero";
+import "./App.css";
+import Achievements from "./components/Achievements";
+import AdvtFooter from "./components/AdvtFooter";
+import Footer from "./components/Footer";
+import Headline from "./components/Headline";
 import Features from "./components/Features";
-
+import Trends from "./components/Trends";
+import Feedback from "./components/Feedback";
 const App = () => {
   return (
-    <div
-      style={{
-        backgroundImage: `url(${BG})`,
-        height: `100vh`,
-        width: `100vw`,
-        backgroundRepeat: `no-repeat`,
-        backgroundSize: `100vw 100vh`,
-      }}
-    >
+    <div className="App">
       <NavBar />
       <Hero />
       <Features />
+      <Feedback />
+      <Achievements />
+      <Headline />
+      <Trends />
+      <AdvtFooter />
+      <Footer />
     </div>
   );
 };
