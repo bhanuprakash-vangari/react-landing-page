@@ -1,3 +1,403 @@
-.container div{
-    background: #fff;
+.feedback {
+  display: grid;
+  background-image: url(../assets/FeedBack.png);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right";
+}
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
+}
+.left p {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+
+  font-feature-settings: "liga" off;
+
+  /* Text / Gray 900 */
+
+  margin-left: 22rem;
+  color: #18191f;
+}
+.left h2 {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+
+  font-feature-settings: "liga" off;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
+  margin-left: 22rem;
+  margin-top: 10rem;
+}
+.left-card{
+ display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+
+    height: 436px;
+    width: 350px;
+    background: #FFFFFF;
+    grid-template-columns: 1fr;
+/* Dark Shadow */
+
+box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+border-radius: 8px;
+margin-left: 24rem;
+margin-top: 3rem;
+}
+
+.left-card p{
+    position: static;
+width: 254px;
+height: 224px;
+left: 0px;
+top: 0px;
+
+/* Lead / Lead 1 */
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 1;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 0px 24px;
+justify-content: left;
+margin-top: 2rem;
+}
+
+.left-card img{
+    position: static;
+width: 140px;
+height: 40px;
+left: 32px;
+top: 32px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 32px;
+}
+
+.left-card h6{
+    /* Floyd Miles */
+
+
+
+
+/* Subtitle / Subtitle 1 */
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+/* Inside Auto Layout */
+padding-top: 5rem;
+padding-left: 3rem;
+}
+
+.left-card #designation{
+    position: static;
+left: 0%;
+right: 0%;
+top: 53.85%;
+bottom: 0%;
+
+/* Lead / Lead 2 */
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 700 */
+
+color: #969BAB;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+
+.right-card-1{
+ display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+
+    height: 350px;
+    width: 350px;
+    background: #FFFFFF;
+    grid-template-columns: 1fr;
+/* Dark Shadow */
+
+box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+border-radius: 8px;
+margin-left: 1rem;
+margin-top: 3rem;
+}
+
+.right-card-1 p{
+    position: static;
+width: 254px;
+height: 224px;
+left: 0px;
+top: 0px;
+
+/* Lead / Lead 1 */
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 1;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 0px 24px;
+justify-content: left;
+margin-top: 2rem;
+}
+
+.right-card-1 img{
+    position: static;
+width: 140px;
+height: 40px;
+left: 32px;
+top: 32px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 32px;
+}
+
+.right-card-1 h6{
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+/* Inside Auto Layout */
+padding-left: 3rem;
+}
+
+.right-card-1 #designation{
+    position: static;
+left: 0%;
+right: 0%;
+top: 53.85%;
+bottom: 0%;
+
+/* Lead / Lead 2 */
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 700 */
+
+color: #969BAB;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.right-card-2{
+ display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+
+    height: 250px;
+    width: 350px;
+    background: #FFFFFF;
+    grid-template-columns: 1fr;
+/* Dark Shadow */
+
+box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+border-radius: 8px;
+margin-left: 1rem;
+margin-top: 3rem;
+}
+
+.right-card-2 p{
+    position: static;
+width: 254px;
+height: 224px;
+left: 0px;
+top: 0px;
+
+/* Lead / Lead 1 */
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 1;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 0px 24px;
+justify-content: left;
+margin-top: 2rem;
+margin-bottom: -6.5rem;
+}
+
+.right-card-2 img{
+    position: static;
+width: 140px;
+height: 40px;
+left: 32px;
+top: 32px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 32px;
+}
+
+.right-card-2 h6{
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+/* Inside Auto Layout */
+padding-left: 3rem;
+}
+
+.right-card-2 #designation{
+    position: static;
+left: 0%;
+right: 0%;
+top: 43.85%;
+bottom: 0%;
+
+/* Lead / Lead 2 */
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 700 */
+
+color: #969BAB;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+padding-bottom: 2rem;
 }
