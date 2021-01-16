@@ -15,24 +15,30 @@
   width: 100vw;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: 
-  "card1 card2 card3"
-  "card4 card5 card6";
- padding-top: 5rem;
+  grid-template-areas:
+    "card1 card2 card3"
+    "card4 card5 card6";
+  padding-top: 5rem;
   place-items: center;
 }
 
 .card1 {
   grid-area: card1;
   text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 .card2 {
   text-align: center;
   grid-area: card2;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 .card3 {
   text-align: center;
   grid-area: card3;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
 }
 .card4 {
   text-align: center;
@@ -43,13 +49,13 @@
 .card5 {
   text-align: center;
   grid-area: card5;
-    padding-top: 2rem;
+  padding-top: 2rem;
   padding-bottom: 5rem;
 }
 .card6 {
   text-align: center;
   grid-area: card6;
-    padding-top: 2rem;
+  padding-top: 2rem;
   padding-bottom: 5rem;
 }
 .container h1 {
@@ -102,7 +108,7 @@
 }
 
 .cards p {
-    margin-top: 0.5rem;
+  margin-top: 0.5rem;
   font-family: Manrope;
   font-style: normal;
   font-weight: 1;
@@ -117,3 +123,30 @@
 
   color: #18191f;
 }
+@media only screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    background: #fff;
+    width: 100vw;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding-top: 2rem;
+  }
+  .cards {
+    display: grid;
+    background: #fff;
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(autofit, 1fr);
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5"
+      "card6";
+    padding-top: 5rem;
+    place-items: center;
+  }
+}
+

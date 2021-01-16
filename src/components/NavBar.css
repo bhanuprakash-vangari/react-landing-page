@@ -8,9 +8,6 @@
 
 }
 
-.nav{
-  padding: 0rem 8;
-}
 .nav_links li,
 a {
   text-decoration: none;
@@ -20,7 +17,7 @@ a {
   font-family: Manrope;
   font-style: normal;
   font-weight: 1;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #18191f;
 }
@@ -34,4 +31,38 @@ a {
 }
 .logo{
   padding-right: 12rem;
+}
+
+@media only screen and (max-width:1450px) {
+  .cta{
+    display:none
+  }
+  .logo{
+    padding-left: 5rem;
+  }
+}
+@media only screen and (max-width:1136px) {
+ .nav_links li,
+a {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  margin-left: 0.5rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 14px;
+  line-height: 20px;
+  color: #18191f;
+}
+.nav_links a:hover{
+
+  color: #75E3EA;
+}
+}
+
+@media only screen and (max-width:768px) {
+  .nav{
+    display: none;
+  }
 }

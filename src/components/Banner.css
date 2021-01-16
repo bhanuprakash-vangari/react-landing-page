@@ -1,6 +1,11 @@
 .bnr {
-    display: grid;
+  display: grid;
 }
-.bnr img{
-    width: 100vw;
+.bnr img {
+  width: 100vw;
+}
+@media only screen and (max-width: 600px){
+.bnr{
+    display: none;
+}
 }
