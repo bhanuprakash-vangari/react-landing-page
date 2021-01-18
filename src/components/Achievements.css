@@ -1,3 +1,231 @@
-.container div{
-    background: #fff;
+.achievements {
+  background: #fff;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right";
 }
+
+.a-left {
+  grid-area: left;
+  margin: auto;
+}
+.a-left h1{
+    font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 58px;
+line-height: 64px;
+/* or 133% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+}
+
+.a-left p{
+font-family: Manrope;
+font-style: normal;
+font-weight: 1;
+font-size: 20px;
+line-height:32px;
+/* identical to box height, or 178% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+margin-top: 1rem;
+}
+
+
+
+.a-right {
+  display: grid;
+  grid-area: right;
+  grid-template: 1fr 1fr/1fr 1fr;
+  grid-template-areas:
+    "a1 a2"
+    "a3 a4";
+}
+
+.a1 {
+  grid-area: a1;
+}
+.a1 h2{
+position: relative;
+top: 5rem;
+left: 15rem;
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+}
+.a1 p{
+position: relative;
+top: 3.5rem;
+left: 15rem;
+font-family: Manrope;
+font-style: normal;
+font-weight: 1;
+font-size: 16px;
+
+/* identical to box height, or 162% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+}
+
+.a1 img{
+    position: relative;
+top: 4rem;
+left: 10rem;
+}
+
+
+.a2 {
+  grid-area: a1;
+}
+.a2 h2{
+position: relative;
+top: 2.7rem;
+left: 45rem;
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+}
+.a2 p{
+position: relative;
+top: 3.5rem;
+left: 45rem;
+font-family: Manrope;
+font-style: normal;
+font-weight: 1;
+font-size: 16px;
+
+/* identical to box height, or 162% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+}
+.a2 img{
+    position: relative;
+top: 5.7rem;
+left: 40rem;
+}
+
+.a3 {
+  grid-area: a1;
+}
+.a3 h2{
+position: relative;
+top: 12.7rem;
+left: 15rem;
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+}
+.a3 p{
+position: relative;
+top: 13.5rem;
+left: 15rem;
+font-family: Manrope;
+font-style: normal;
+font-weight: 1;
+font-size: 16px;
+
+/* identical to box height, or 162% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+}
+
+.a3 img{
+    position: relative;
+top: 15.5rem;
+left: 10rem;
+}
+
+
+.a4 {
+  grid-area: a1;
+}
+.a4 h2{
+position: relative;
+top: 12.7rem;
+left: 45rem;
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+}
+.a4 p{
+position: relative;
+top: 13.5rem;
+left: 45rem;
+font-family: Manrope;
+font-style: normal;
+font-weight: 1;
+font-size: 16px;
+
+/* identical to box height, or 162% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+}
+.a4 img{
+    position: relative;
+top: 15.7rem;
+left: 40rem;
+}
+
+
