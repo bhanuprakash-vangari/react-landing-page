@@ -1,3 +1,58 @@
-.container div{
-    background: #fff;
+.footer {
+  background: #0b0d17;
+  height: 40vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 0.33fr;
+  grid-template-areas: "left right";
+}
+
+.fooleft {
+  grid-area: left;
+}
+.list-1 a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  font-feature-settings: "liga" off;
+}
+.list-2 a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+}
+.fooright {
+  grid-area: right;
+}
+.list-1 {
+  display: flex;
+  margin: 8rem;
+}
+.list-2 {
+  display: flex;
+  margin-top: -5rem;
+  margin-left: 8rem;
+}
+
+.fooleft p {
+  color: white;
+  margin: 3rem 9rem;
+}
+
+.fooright img {
+  margin-top: 8.5rem;
+  margin-left: 2rem;
 }

@@ -276,31 +276,57 @@
     grid-area: right;
   }
 }
+@media only screen and (max-width: 375px) {
+  .achievements {
+    display: grid;
+    height: 35vh;
+    width: 100vh;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left";
+    background: rgb(255, 250, 206);
+  }
+  .a-right{
+    display: none;
+  }
+  .a-left{
+    grid-area: "left";
+    margin-left: -2.5rem;
+  }
+  .a-left h1{
+    font-size: 2.3rem;
+    line-height: 2.3rem;
+  }
+  .a-left p{
+  margin-left: 6rem;
+  max-width: 16rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 411px) {
   .achievements {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "left"
-      "left";
-    height: 25vh;
+    height: 35vh;
     width: 100vh;
+    grid-template-rows: 1fr;
+    grid-template-areas: "left";
     background: rgb(255, 250, 206);
   }
-  .a-left {
-    margin-left: 3rem;
-    margin-top: 3rem;
-  }
-  .a-right {
-    grid-area: right;
+  .a-right{
     display: none;
   }
-  .a-left h1 {
-    font-size: 2.5rem;
-    line-height: 3rem;
+  .a-left{
+    grid-area: "left";
+    margin-left: -1rem;
   }
-  .a-left p {
-    font-size: 1rem;
-    margin-top: 0.25rem;
+  .a-left h1{
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+  }
+  .a-left p{
+  margin-left: 6rem;
+  max-width: 16rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
 }

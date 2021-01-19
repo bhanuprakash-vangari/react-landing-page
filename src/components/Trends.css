@@ -1,3 +1,94 @@
-.container div{
-    background: #fff;
+.trends {
+  background: #fff;
+  display: grid;
+  height: 70vh;
+  width: 100vw;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "left right"
+    "bottom bottom";
+}
+
+.top-left {
+  grid-area: left;
+}
+.top-right {
+  grid-area: right;
+}
+
+.bottom {
+  grid-area: bottom;
+}
+
+.top-left h1 {
+  margin-left: 18rem;
+  margin-top: 3rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 58px;
+  /* or 135% */
+  max-width: 450px;
+  font-feature-settings: "liga" off;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
+}
+
+.top-right p {
+  margin: 3rem 12rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  font-feature-settings: "liga" off;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
+  max-width: 450px;
+}
+.bottom img {
+  margin: 0rem 22rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .trends {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "left"
+      "right";
+      width: 100vw;
+  }
+  .top-left{
+      grid-area: left;
+      width: 100vw;
+      height: 10vh;
+
+  }
+  .top-right{
+      grid-area: right;
+      width: 100vw;
+  }
+  .bottom{
+      display: none;
+  }
+  .top-left h1{
+      margin: auto;
+      padding-top: 5rem;
+      padding-left: 1.2rem;
+      font-size: 40px;
+  }
+  .top-right p{
+      margin: auto;
+      padding-left: 1.2rem;
+
+  }
 }

@@ -3,7 +3,6 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import "./App.css";
 import Achievements from "./components/Achievements";
-import AdvtFooter from "./components/AdvtFooter";
 import Footer from "./components/Footer";
 import Headline from "./components/Headline";
 import Features from "./components/Features";
@@ -21,7 +20,6 @@ const App = () => {
       <Achievements />
       <Headline />
       <Trends />
-      <AdvtFooter />
       <Footer />
     </div>
   );
