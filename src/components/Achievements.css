@@ -4,45 +4,44 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "left right";
+    background: rgb(255, 250, 206);
+
 }
 
 .a-left {
   grid-area: left;
   margin: auto;
 }
-.a-left h1{
-    font-family: Manrope;
-font-style: normal;
-font-weight: 800;
-font-size: 58px;
-line-height: 64px;
-/* or 133% */
+.a-left h1 {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 64px;
+  /* or 133% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
-
+  color: #18191f;
 }
 
-.a-left p{
-font-family: Manrope;
-font-style: normal;
-font-weight: 1;
-font-size: 20px;
-line-height:32px;
-/* identical to box height, or 178% */
+.a-left p {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
-margin-top: 1rem;
+  color: #18191f;
+  margin-top: 1rem;
 }
-
-
 
 .a-right {
   display: grid;
@@ -56,176 +55,252 @@ margin-top: 1rem;
 .a1 {
   grid-area: a1;
 }
-.a1 h2{
-position: relative;
-top: 5rem;
-left: 15rem;
-font-family: Manrope;
-font-style: normal;
-font-weight: 800;
-font-size: 28px;
+.a1 h2 {
+  position: relative;
+  top: 5rem;
+  left: 15rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
-
+  color: #18191f;
 }
-.a1 p{
-position: relative;
-top: 3.5rem;
-left: 15rem;
-font-family: Manrope;
-font-style: normal;
-font-weight: 1;
-font-size: 16px;
+.a1 p {
+  position: relative;
+  top: 3.5rem;
+  left: 15rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 16px;
 
-/* identical to box height, or 162% */
+  /* identical to box height, or 162% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
-
+  color: #18191f;
 }
 
-.a1 img{
-    position: relative;
-top: 4rem;
-left: 10rem;
+.a1 img {
+  position: relative;
+  top: 3.5rem;
+  left: 10rem;
 }
-
 
 .a2 {
   grid-area: a1;
 }
-.a2 h2{
-position: relative;
-top: 2.7rem;
-left: 45rem;
-font-family: Manrope;
-font-style: normal;
-font-weight: 800;
-font-size: 28px;
+.a2 h2 {
+  position: relative;
+  top: 2.7rem;
+  left: 45rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
-
+  color: #18191f;
 }
-.a2 p{
-position: relative;
-top: 3.5rem;
-left: 45rem;
-font-family: Manrope;
-font-style: normal;
-font-weight: 1;
-font-size: 16px;
+.a2 p {
+  position: relative;
+  top: 3.5rem;
+  left: 45rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 16px;
 
-/* identical to box height, or 162% */
+  /* identical to box height, or 162% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
+  color: #18191f;
 }
-.a2 img{
-    position: relative;
-top: 5.7rem;
-left: 40rem;
+.a2 img {
+  position: relative;
+  top: 5.7rem;
+  left: 40rem;
 }
 
 .a3 {
   grid-area: a1;
 }
-.a3 h2{
-position: relative;
-top: 12.7rem;
-left: 15rem;
-font-family: Manrope;
-font-style: normal;
-font-weight: 800;
-font-size: 28px;
+.a3 h2 {
+  position: relative;
+  top: 12.7rem;
+  left: 15rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
-
+  color: #18191f;
 }
-.a3 p{
-position: relative;
-top: 13.5rem;
-left: 15rem;
-font-family: Manrope;
-font-style: normal;
-font-weight: 1;
-font-size: 16px;
+.a3 p {
+  position: relative;
+  top: 13.5rem;
+  left: 15rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 16px;
 
-/* identical to box height, or 162% */
+  /* identical to box height, or 162% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
-
+  color: #18191f;
 }
 
-.a3 img{
-    position: relative;
-top: 15.5rem;
-left: 10rem;
+.a3 img {
+  position: relative;
+  top: 15.5rem;
+  left: 10rem;
 }
-
 
 .a4 {
   grid-area: a1;
 }
-.a4 h2{
-position: relative;
-top: 12.7rem;
-left: 45rem;
-font-family: Manrope;
-font-style: normal;
-font-weight: 800;
-font-size: 28px;
+.a4 h2 {
+  position: relative;
+  top: 12.7rem;
+  left: 45rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
-
+  color: #18191f;
 }
-.a4 p{
-position: relative;
-top: 13.5rem;
-left: 45rem;
-font-family: Manrope;
-font-style: normal;
-font-weight: 1;
-font-size: 16px;
+.a4 p {
+  position: relative;
+  top: 13.5rem;
+  left: 45rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 16px;
 
-/* identical to box height, or 162% */
+  /* identical to box height, or 162% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
-
+  color: #18191f;
 }
-.a4 img{
-    position: relative;
-top: 15.7rem;
-left: 40rem;
+.a4 img {
+  position: relative;
+  top: 15.7rem;
+  left: 40rem;
 }
 
-
+@media only screen and (max-width: 768px) {
+  .achievements {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "left"
+      "left";
+    height: 25vh;
+    width: 100vh;
+    background: rgb(255, 250, 206);
+  }
+  .a-left {
+    margin: auto;
+  }
+  .a-left h1 {
+    margin-top: 2rem;
+    margin-left: 6rem;
+  }
+  .a-left p {
+    margin-left: 6rem;
+  }
+  .a-right {
+    grid-area: right;
+    display: none;
+  }
+  .a-right .a2 {
+    display: none;
+  }
+  .a-right .a4 {
+    display: none;
+  }
+  .a-right .a1 {
+    display: block;
+    margin: auto;
+  }
+  .a-right .a3 {
+    display: block;
+    margin-left: 3.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .achievements {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "left"
+      "right";
+    height: 35vh;
+    width: 100vh;
+  }
+  .a-left {
+    margin: auto;
+  }
+  .a-right {
+    grid-area: right;
+  }
+}
+@media only screen and (max-width: 411px) {
+  .achievements {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "left"
+      "left";
+    height: 25vh;
+    width: 100vh;
+    background: rgb(255, 250, 206);
+  }
+  .a-left {
+    margin-left: 3rem;
+    margin-top: 3rem;
+  }
+  .a-right {
+    grid-area: right;
+    display: none;
+  }
+  .a-left h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .a-left p {
+    font-size: 1rem;
+    margin-top: 0.25rem;
+  }
+}

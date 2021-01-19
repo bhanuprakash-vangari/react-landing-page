@@ -46,358 +46,454 @@
   margin-left: 22rem;
   margin-top: 10rem;
 }
-.left-card{
- display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 32px;
+.left-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
 
-    height: 436px;
-    width: 350px;
-    background: #FFFFFF;
-    grid-template-columns: 1fr;
-/* Dark Shadow */
+  height: 436px;
+  width: 350px;
+  background: #ffffff;
+  grid-template-columns: 1fr;
+  /* Dark Shadow */
 
-box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
-border-radius: 8px;
-margin-left: 24rem;
-margin-top: 3rem;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+  margin-left: 24rem;
+  margin-top: 3rem;
 }
 
-.left-card p{
-    position: static;
-width: 254px;
-height: 224px;
-left: 0px;
-top: 0px;
+.left-card p {
+  position: static;
+  width: 254px;
+  height: 224px;
+  left: 0px;
+  top: 0px;
 
-/* Lead / Lead 1 */
+  /* Lead / Lead 1 */
 
-font-family: Manrope;
-font-style: normal;
-font-weight: 1;
-font-size: 18px;
-line-height: 32px;
-/* or 178% */
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
+  color: #18191f;
 
-/* Inside Auto Layout */
+  /* Inside Auto Layout */
 
-flex: none;
-order: 0;
-align-self: center;
-flex-grow: 0;
-margin: 0px 24px;
-justify-content: left;
-margin-top: 2rem;
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 24px;
+  justify-content: left;
+  margin-top: 2rem;
 }
 
-.left-card img{
-    position: static;
-width: 140px;
-height: 40px;
-left: 32px;
-top: 32px;
+.left-card img {
+  position: static;
+  width: 140px;
+  height: 40px;
+  left: 32px;
+  top: 32px;
 
+  /* Inside Auto Layout */
 
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 32px;
 }
 
-.left-card h6{
-    /* Floyd Miles */
+.left-card h6 {
+  /* Floyd Miles */
 
+  /* Subtitle / Subtitle 1 */
 
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
 
+  font-feature-settings: "liga" off;
 
-/* Subtitle / Subtitle 1 */
+  /* Text / Gray 900 */
 
-font-family: Manrope;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 28px;
-/* identical to box height, or 156% */
+  color: #18191f;
 
-font-feature-settings: 'liga' off;
-
-/* Text / Gray 900 */
-
-color: #18191F;
-
-/* Inside Auto Layout */
-padding-top: 5rem;
-padding-left: 3rem;
+  /* Inside Auto Layout */
+  padding-top: 5rem;
+  padding-left: 3rem;
 }
 
-.left-card #designation{
-    position: static;
-left: 0%;
-right: 0%;
-top: 53.85%;
-bottom: 0%;
+.left-card #designation {
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 53.85%;
+  bottom: 0%;
 
-/* Lead / Lead 2 */
+  /* Lead / Lead 2 */
 
-font-family: Manrope;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 700 */
+  /* Text / Gray 700 */
 
-color: #969BAB;
+  color: #969bab;
 
-/* Inside Auto Layout */
+  /* Inside Auto Layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
 }
 
+.right-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
 
-.right-card-1{
- display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 32px;
+  height: 350px;
+  width: 350px;
+  background: #ffffff;
+  grid-template-columns: 1fr;
+  /* Dark Shadow */
 
-    height: 350px;
-    width: 350px;
-    background: #FFFFFF;
-    grid-template-columns: 1fr;
-/* Dark Shadow */
-
-box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
-border-radius: 8px;
-margin-left: 1rem;
-margin-top: 3rem;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+  margin-left: 1rem;
+  margin-top: 3rem;
 }
 
-.right-card-1 p{
-    position: static;
-width: 254px;
-height: 224px;
-left: 0px;
-top: 0px;
+.right-card-1 p {
+  position: static;
+  width: 254px;
+  height: 224px;
+  left: 0px;
+  top: 0px;
 
-/* Lead / Lead 1 */
+  /* Lead / Lead 1 */
 
-font-family: Manrope;
-font-style: normal;
-font-weight: 1;
-font-size: 18px;
-line-height: 32px;
-/* or 178% */
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
+  color: #18191f;
 
-/* Inside Auto Layout */
+  /* Inside Auto Layout */
 
-flex: none;
-order: 0;
-align-self: center;
-flex-grow: 0;
-margin: 0px 24px;
-justify-content: left;
-margin-top: 2rem;
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 24px;
+  justify-content: left;
+  margin-top: 2rem;
 }
 
-.right-card-1 img{
-    position: static;
-width: 140px;
-height: 40px;
-left: 32px;
-top: 32px;
+.right-card-1 img {
+  position: static;
+  width: 140px;
+  height: 40px;
+  left: 32px;
+  top: 32px;
 
+  /* Inside Auto Layout */
 
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 32px;
 }
 
-.right-card-1 h6{
-font-family: Manrope;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 28px;
-/* identical to box height, or 156% */
+.right-card-1 h6 {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
+  color: #18191f;
 
-/* Inside Auto Layout */
-padding-left: 3rem;
+  /* Inside Auto Layout */
+  padding-left: 3rem;
 }
 
-.right-card-1 #designation{
-    position: static;
-left: 0%;
-right: 0%;
-top: 53.85%;
-bottom: 0%;
+.right-card-1 #designation {
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 53.85%;
+  bottom: 0%;
 
-/* Lead / Lead 2 */
+  /* Lead / Lead 2 */
 
-font-family: Manrope;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 700 */
+  /* Text / Gray 700 */
 
-color: #969BAB;
+  color: #969bab;
 
-/* Inside Auto Layout */
+  /* Inside Auto Layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
 }
 
-.right-card-2{
- display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 32px;
+.right-card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
 
-    height: 250px;
-    width: 350px;
-    background: #FFFFFF;
-    grid-template-columns: 1fr;
-/* Dark Shadow */
+  height: 250px;
+  width: 350px;
+  background: #ffffff;
+  grid-template-columns: 1fr;
+  /* Dark Shadow */
 
-box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
-border-radius: 8px;
-margin-left: 1rem;
-margin-top: 3rem;
+  box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 8px;
+  margin-left: 1rem;
+  margin-top: 3rem;
 }
 
-.right-card-2 p{
-    position: static;
-width: 254px;
-height: 224px;
-left: 0px;
-top: 0px;
+.right-card-2 p {
+  position: static;
+  width: 254px;
+  height: 224px;
+  left: 0px;
+  top: 0px;
 
-/* Lead / Lead 1 */
+  /* Lead / Lead 1 */
 
-font-family: Manrope;
-font-style: normal;
-font-weight: 1;
-font-size: 18px;
-line-height: 32px;
-/* or 178% */
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
+  color: #18191f;
 
-/* Inside Auto Layout */
+  /* Inside Auto Layout */
 
-flex: none;
-order: 0;
-align-self: center;
-flex-grow: 0;
-margin: 0px 24px;
-justify-content: left;
-margin-top: 2rem;
-margin-bottom: -6.5rem;
+  flex: none;
+  order: 0;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 24px;
+  justify-content: left;
+  margin-top: 2rem;
+  margin-bottom: -6.5rem;
 }
 
-.right-card-2 img{
-    position: static;
-width: 140px;
-height: 40px;
-left: 32px;
-top: 32px;
+.right-card-2 img {
+  position: static;
+  width: 140px;
+  height: 40px;
+  left: 32px;
+  top: 32px;
 
+  /* Inside Auto Layout */
 
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 32px;
 }
 
-.right-card-2 h6{
-font-family: Manrope;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 28px;
-/* identical to box height, or 156% */
+.right-card-2 h6 {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 900 */
+  /* Text / Gray 900 */
 
-color: #18191F;
+  color: #18191f;
 
-/* Inside Auto Layout */
-padding-left: 3rem;
+  /* Inside Auto Layout */
+  padding-left: 3rem;
 }
 
-.right-card-2 #designation{
-    position: static;
-left: 0%;
-right: 0%;
-top: 43.85%;
-bottom: 0%;
+.right-card-2 #designation {
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 43.85%;
+  bottom: 0%;
 
-/* Lead / Lead 2 */
+  /* Lead / Lead 2 */
 
-font-family: Manrope;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
 
-font-feature-settings: 'liga' off;
+  font-feature-settings: "liga" off;
 
-/* Text / Gray 700 */
+  /* Text / Gray 700 */
 
-color: #969BAB;
+  color: #969bab;
 
-/* Inside Auto Layout */
+  /* Inside Auto Layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 0px;
-padding-bottom: 2rem;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .feedback {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "left"
+      "left";
+  }
+  .left h2 {
+    margin-top: 10rem;
+    margin-left: 12rem;
+  }
+  .left p {
+    margin-left: 12rem;
+  }
+  .left-card {
+    margin-top: 5rem;
+    margin-left: 15rem;
+  }
+  .left-card p {
+    margin-right: 14rem;
+  }
+  .right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .feedback {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left right";
+    height: 80vh;
+  }
+  .left h2 {
+    margin-top: 5rem;
+    margin-left: 8rem;
+  }
+  .left p {
+    margin-left: 8rem;
+  }
+  .left-card {
+    margin-top: 2rem;
+    margin-left: 10rem;
+  }
+  .left-card p {
+    margin-right: 10.4rem;
+  }
+  .right-card-1 {
+    margin-top: 7.8rem;
+  }
+}
+@media only screen and (max-width: 411px) {
+  .feedback {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "left"
+      "left";
+    width: 100vw;
+  }
+  .left {
+    margin: auto;
+  }
+  .left h2 {
+    font-size: 30px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+  }
+  .left p {
+    font-size: 16px;
+    margin-left: 3rem;
+    margin-top: 0.25rem;
+  }
+  .left-card {
+    margin-left: 3rem;
+    margin-top: 1.8rem;
+    height: 336px;
+    width: 250px;
+  }
+  .left-card p {
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 14px;
+    margin-bottom: none;
+  }
+  .left-card img {
+    margin-left: 0.2rem;
+  }
+  .left-card h6 {
+    position: relative;
+    bottom: 5rem;
+    right: 2.8rem;
+    margin-bottom: none;
+  }
+  #designation {
+    display: none;
+  }
+  .right {
+    display: none;
+  }
 }

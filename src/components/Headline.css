@@ -1,3 +1,72 @@
-.container div{
-    background: #fff;
+.headline {
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 70vh;
+  grid-template-areas: "left right";
+}
+
+.left {
+  grid-area: left;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 23rem;
+}
+.left img {
+}
+.right {
+  grid-area: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 3rem;
+}
+
+.right h1 {
+  margin-bottom: 1rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 54px;
+  /* identical to box height, or 135% */
+
+  font-feature-settings: "liga" off;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
+}
+
+.right p {
+  /* Lead / Lead 1 */
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  font-feature-settings: "liga" off;
+
+  /* Text / Gray 900 */
+
+  color: #18191f;
+}
+
+.right a {
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: "liga" off;
+
+  /* Brand / Purple */
+
+  color: #8c30f5;
+
 }
